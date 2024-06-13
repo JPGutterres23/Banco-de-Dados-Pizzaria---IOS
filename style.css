@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(https://media.istockphoto.com/id/1551595837/es/vector/boceto-de-pizza-sin-costuras-sobre-fondo-negro.jpg?b=1&s=612x612&w=0&k=20&c=dk8pxL_W8Eho-ZdW_nqplLsp5t0WMegE8nmSIJVkAOg=);
+    padding: 40px 4%;
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+}
+
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #000000;
+    transform: scale(2);
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px; 
+}
+
+body {
+   text-align: center;
+   color: darkgray;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: larger;
+   background-image: url(https://www.paisanspizza.com/wp-content/uploads/2019/04/pizza-background.jpg);
+   background-size: 118%;
+}
+
+.pedidos2 {
+    align-items: center;
+}
+
+.logotipo2 {
+    width: 30%;
+    padding: 0px;
+    align-items: flex-start;
+}
+
+footer {
+    
+}
+
